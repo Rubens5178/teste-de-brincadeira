@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #006B51;
+    background-image: url(imagem\ stardew.png);
+    background-repeat: no-repeat;
+    background-position-x: 5.5em;
+    background-position-y: 5em;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.cabecalho__meio {
+    display: flex;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.cabecalho__item {
+    margin: 0 1em;
+    color: white;
+}
+
+.cabecalho__texto {
+    border: 4px solid #D06048;
+    border-radius: 4px;
+    background-color: #FCEFE7;
+    color: #C17A5C;
+    padding: 0.2em;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    margin: 90vh 4em 0 5em;
+    justify-content: space-between;
+}
+
+.container__blocos {
+    width: 28%;
+    text-align: center;
+    border-top: 3px solid #D06048;
+    border-bottom: 3px solid #D06048;
+    background-color: #FCEFE7;
+    padding: 1em;
+}
+
+.container__titulo {
+    color: #C17A5C;
+    margin-bottom: 0.5em;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container__paragrafo {
+    color: #477755;
+    font-size: 16px;
+}
+
+body:hover {
+    background-image: url(teste.jpg);
+}
